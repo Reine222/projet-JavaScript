@@ -1,0 +1,97 @@
+/*premiere section titre*/
+#partie1{
+height: 300px;
+display: inline;
+
+}
+#titre{
+    background-color: rgba(161, 122, 75, 0.288);
+    width: 100%;
+}
+
+#partie1 h1{
+    color: rgba(24, 15, 15, 0.781);
+    float: right;
+    font-family:  French Script MT;
+    font-size: 7em;
+}
+
+#partie1 p{
+font-family:  French Script MT;
+font-size: 2em;
+color: rgb(202, 68, 131);
+}
+
+#partie1 img{
+float: left;
+}
+
+/*deuxieme section menu*/
+#partie2{
+    width: 100%;
+}
+#nav{
+    background-color: rgba(243, 42, 166, 0.308);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#projet{
+    font-family: French Script MT;
+    font-size: 2em; 
+}
+#menu{
+    float: right;
+}
+
+/*troisieme section mariage*/
+
+#partie3{
+
+}
+#partie3 h1{
+    text-align: center;
+    font-family:  Lucida Calligraphy;
+}
+#partie3 p{
+    font-family:  Monotype Corsiva, serif;
+    color: rgb(202, 68, 131);
+    font-size: 25px;
+}
+
+#bouton1{
+    float: center;
+    color: rgb(161, 122, 75);
+    height: 75px;
+    
+}
+
+
+/*quatrieme anniv*/
+#partie4{
+
+}
+
+#partie4 h1{
+    text-align: center;
+    font-family:  Lucida Calligraphy;
+}
+
+#partie4 p{
+    font-family:  Monotype Corsiva, serif;
+    color: rgb(202, 68, 131);
+    font-size: 25px;
+}
+
+#bouton2{
+    float: center;
+    color: rgb(161, 122, 75);
+    height: 75px;
+    
+}
+
+/*footer*/
+#partie5{
+    background-color: rgba(161, 122, 75, 0.288);
+}
+#partie5 center{
+font-family:  Lucida Calligraphy;
+}

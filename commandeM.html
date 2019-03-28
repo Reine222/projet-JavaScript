@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>La Reine du Cake</title>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="index.css">
+        <style>
+        #formulaire{
+            padding:15px;
+            background-color:rgb(202, 68, 131);
+            height:300px;
+            width:800px;
+            border-radius:20px;
+        }
+        h3{
+            font-family:Lucida Calligraphy;
+        }
+        </style>
+    </head>
+    <body>
+        <section id="partie1">
+            <header>
+                    <div class="container-fluid" id="titre">
+                               
+                                    <h1>La Reine du Cake</h1>
+                                    <img id="logo" src="image/log1.jpg" alt=""/>
+                                    <br><p>Votre Plaisir Notre Metier</p>
+                                    
+                     </div>
+            </header>
+        </section>
+        
+        <section id="partie2">
+            <nav class="navbar navbar-inverse" id="nav">
+                <div class="container-fluid">
+                   <div class="navbar-header">
+                        <a id="projet" class="navbar-brand">Votre Plaisir Notre Metier</a>
+                   </div>
+                   <ul class="nav navbar-nav" id="menu">
+                   <li><a href="index.html">ACCEUIL</a></li>
+                       <li class="active" ><a href="mariage.html">GATEAU DE MARIAGE</a></li>
+                       <li><a href="anniv.html">GATEAU D'ANNIVERSAIRE</a></li>
+                   </ul>
+                </div>
+           </nav>
+        </section>
+
+        <section id="partie4">
+            <div>
+                <h1>COMMANDER UN GATEAU DE MARIAGE</h1>
+                <form class="form container" id="formulaire" >
+                     <div class="row" >
+                     <div class="col-md-6" >
+                         <input type="text" name="nom" placeholder="entrez votre nom et prenoms svp!!!" class="form-control" />
+                     </div>
+                     
+                     <div class="col-md-6" >
+                         <input type="text" name="jour" placeholder="entrez la date de livraison(une semaine apres la commande) svp !!!" class="form-control" /> 
+                     </div><br><br><br>
+
+                     <div class="col-md-6" >
+                         <input type="text" name="heure" placeholder="entrez l'heure de livraison" class="form-control" />
+                     </div>
+
+                     <div class="col-md-6" >
+                         <input type="text" name="ville" placeholder="entrez votre ville de residense svp!!!" class="form-control" />
+                     </div>
+                     
+                     </div>
+                     <h3><center>Etes vous sur de la commande?</center></h3>
+                     <div class="row" >
+                     <center>
+                         <div class="col-md-6" >
+                             <input type="submit" onclick="alert('votre commande est effectué, ;)merci!!! ')" class="btn btn-success" value="OUI !"/>
+                         </div>
+                         <div class="col-md-6" >
+                             <input type="reset" onclick="alert('votre commande a été annulée à bientôt!!!')" class="btn btn-danger" value="NON !"/>
+                         </div>
+                     </center>
+                    </div>
+            
+                 </form>
+            </div>
+        </section><br><br><br><br>
+
+
+        <section id="partie5">
+                <footer>
+                        <div class="container-fluid footer" id="footer">
+                                <fieldset><legend><center>CONTACTEZ-NOUS!</center></legend>
+                                <div class="row" >
+                                    <div class="col-md-6">
+                                    <h4>Des questions</h4>
+                                    <a href="#">Nos Magasins</a><br>
+                                    <a href="#">Livraison</a><br>
+                                    <a href="#">Conditions Generale De Vente</a><br>
+                                    </div>
+                     
+                                    <div class="col-md-6">
+                                    <h4>contactez-nous</h4>
+                                    <a href="#"><span class="glyphicon g"></span>Facebook</a><br>
+                                    <a href="#"><span class=""></span>Twitter</a><br>
+                                    <a href="#"><span class=""></span>Youtube</a>
+                                    </div><br><br>
+                                   
+                                </fieldset>
+                                </div>
+                            </div>
+                           
+                        </footer>
+                     
+        </section>
+    </body>
+</html>
